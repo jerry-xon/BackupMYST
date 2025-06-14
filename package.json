@@ -1,0 +1,89 @@
+{
+  "name": "myst-mobile-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/montserrat": "^0.4.0",
+    "@expo/config-plugins": "~10.0.0",
+    "@expo/ngrok": "^4.1.0",
+    "@gorhom/bottom-sheet": "^5.1.5",
+    "@react-native-camera-roll/camera-roll": "^7.10.0",
+    "@react-native-community/blur": "^4.4.1",
+    "@react-native-community/datetimepicker": "8.3.0",
+    "@react-native-documents/picker": "^10.1.3",
+    "@react-native-masked-view/masked-view": "0.3.2",
+    "@react-navigation/bottom-tabs": "^7.3.14",
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/native-stack": "^7.3.13",
+    "@reduxjs/toolkit": "^2.8.2",
+    "@shopify/flash-list": "1.7.6",
+    "axios": "^1.9.0",
+    "expo": "53.0.10",
+    "expo-av": "~15.1.4",
+    "expo-build-properties": "~0.14.6",
+    "expo-constants": "~17.1.6",
+    "expo-dev-client": "~5.2.0",
+    "expo-doctor": "^1.13.3",
+    "expo-firebase-app": "^2.0.0",
+    "expo-firebase-auth": "^2.0.0",
+    "expo-font": "~13.3.1",
+    "expo-image-picker": "~16.1.4",
+    "expo-linear-gradient": "~14.1.5",
+    "expo-status-bar": "~2.2.3",
+    "expo-video": "~2.2.0",
+    "firebase": "^11.9.0",
+    "formik": "^2.4.6",
+    "react": "19.0.0",
+    "react-native": "0.79.3",
+    "react-native-country-picker-modal": "^2.0.0",
+    "react-native-create-thumbnail": "^2.1.1",
+    "react-native-element-dropdown": "^2.12.4",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-image-crop-picker": "^0.50.1",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-mmkv": "^3.2.0",
+    "react-native-paper": "^5.14.5",
+    "react-native-permissions": "^5.4.1",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-reanimated-carousel": "^4.0.2",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-skeleton-placeholder": "^5.2.4",
+    "react-native-svg": "15.11.2",
+    "react-native-swiper-flatlist": "^3.2.5",
+    "react-native-uuid": "^2.0.3",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-video": "^6.14.1",
+    "react-native-view-shot": "^4.0.3",
+    "react-redux": "^9.2.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "@types/react-redux": "^7.1.34",
+    "react-native-svg-transformer": "^1.5.1",
+    "typescript": "~5.8.3"
+  },
+  "private": true,
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "listUnknownPackages": false,
+        "exclude": [
+          "react-native-keyboard-aware-scroll-view",
+          "firebase"
+        ]
+      }
+    }
+  }
+}

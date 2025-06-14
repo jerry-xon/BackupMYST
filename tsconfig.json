@@ -1,0 +1,13 @@
+{
+  "extends": "expo/tsconfig.base",
+  "include": ["src", "svg.d.ts"],
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@features/*": ["src/features/*"],
+      "@assets/*": ["assets/*"]
+    },
+    "types": ["./svg.d.ts"]
+  }
+}

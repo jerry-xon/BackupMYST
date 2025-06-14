@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "title": "Enter your personal information",
+    "descrption": "You can edit this information from profile late on"
+  },
+  "categories": {
+    "title": "What categories are you interested in?",
+    "descrption": "Select 5 or more categories",
+    "list":[
+      {
+        "id": 1,
+        "name": "Meme"
+      },
+      {
+        "id": 2,
+        "name": "Dance"
+      },
+      {
+        "id": 3,
+        "name": "Pranks"
+      },
+      {
+        "id": 4,
+        "name": "Food"
+      },
+      {
+        "id": 5,
+        "name": "Technology"
+      },
+      {
+        "id": 6,
+        "name": "Horror"
+      },
+      {
+        "id": 7,
+        "name": "Fitness"
+      },
+      {
+        "id": 8,
+        "name": "Romantic"
+      },
+      {
+        "id": 9,
+        "name": "AI"
+      },
+      {
+        "id": 10,
+        "name": "Comedy"
+      },
+      {
+        "id": 11,
+        "name": "Music"
+      },
+      {
+        "id": 12,
+        "name": "Motivational"
+      },
+      {
+        "id": 13,
+        "name": "Business"
+      },
+      {
+        "id": 14,
+        "name": "Kids"
+      },
+      {
+        "id": 15,
+        "name": "Entertainment"
+      },
+      {
+        "id": 16,
+        "name": "Adult"
+      },
+      {
+        "id": 17,
+        "name": "Vlog"
+      },
+      {
+        "id": 18,
+        "name": "Couple"
+      },
+      {
+        "id": 19,
+        "name": "Podcast"
+      },
+      {
+        "id": 20,
+        "name": "Sports"
+      }
+    ]
+  }
+}

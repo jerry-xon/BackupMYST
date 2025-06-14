@@ -1,0 +1,7 @@
+#import <React/RCTImageURLLoader.h>
+#import <Foundation/Foundation.h>
+
+void SetImageLoaderPriorityForLoader(const char *loaderName, int priority) {
+  NSString *name = [NSString stringWithUTF8String:loaderName];
+  RCTSetImageURLLoaderPriorityForLoader(name, priority);
+}
